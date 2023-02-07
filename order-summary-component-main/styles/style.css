@@ -135,6 +135,14 @@ section > a:hover {
     color: var(--Dark-blue);
 }
 
+@media screen and (min-width: 840px) {
+    body {
+        background: var(--Pale-blue) url(../images/pattern-background-desktop.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
 
 /* .attribution {font-size: 11px; text-align: center;}
 .attribution a {color: hsl(228, 45%, 44%);} */
