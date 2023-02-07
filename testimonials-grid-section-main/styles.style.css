@@ -18,11 +18,11 @@ body {
 
 div.container {
     display: grid;
-    grid-template: "box1" 400px
-                    "box2" 200px
-                    "box3" 200px
-                    "box4" 300px
-                    "box5" 500px;
+    grid-template: "box1" auto
+                    "box2" auto
+                    "box3" auto
+                    "box4" auto
+                    "box5" auto;
     row-gap: 25px;
     width: 80vw;
     margin: 70px 0;
@@ -46,10 +46,10 @@ div.container {
 .box4{background-color: hsl(219, 29%, 14%);}
 
 .people {
-    width: 60%;
+    width: 53%;
     margin-bottom: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -66,3 +66,19 @@ div.container {
 }
 
 .people-name strong {color: #ffffffb3;}
+
+.description {
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+}
+
+.review {color: rgba(255, 255, 255, 0.5);}
+
+.box3 .people-name strong, .box5 .people-name strong {color: rgba(0, 0, 0, 0.7);}
+
+.box3 .people-name, .box5 .people-name {color: rgba(0, 0, 0, 0.5);}
+
+.box3 .description, .box5 .description {color: rgba(0, 0, 0, 0.7);}
+
+.box3 .review, .box5 .review {color: rgba(0, 0, 0, 0.5);}
