@@ -79,7 +79,7 @@ div.container {
 .box3 .review, .box5 .review {color: rgba(0, 0, 0, 0.5);}
 
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1240px) {
 
     body {
         height: 100vh;
