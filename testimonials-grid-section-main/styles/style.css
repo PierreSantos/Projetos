@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 
-div.container {
+main.container {
     display: grid;
     grid-template: "box1" auto
                     "box2" auto
@@ -85,7 +85,7 @@ div.container {
         height: 100vh;
     }
 
-    div.container {
+    main.container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         column-gap: 25px;
